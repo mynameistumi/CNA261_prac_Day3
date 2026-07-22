@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Demo Site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <section class="panel">
+        <p class="eyebrow">Interactive Frontend</p>
+        <h1>Welcome to your JavaScript website</h1>
+        <p class="intro">
+          This page uses JavaScript to respond to your clicks and keep track of your visits.
+        </p>
+        <button id="messageButton">Generate a message</button>
+        <div id="messageCard" class="card">Click the button to get started.</div>
+        <div class="stats">
+          <p>Current time: <span id="timeLabel">--:--:--</span></p>
+          <p>Visit count: <span id="visitCount">0</span></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
